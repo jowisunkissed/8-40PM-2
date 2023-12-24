@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>8:40 PM.</strong>
+                        <p>
+                            the more na nakilala nga kita the more nahuhulog, pagising ikaw kagad iniisip parang ang saya mo kasama, the more na nakausap, the more may incommon, everyday mas nafafall ako sayo nun, the more i want na, alagaan ka, makausap at makasama sa everyday copy paste SDGFDSHGFSD
+                            PLEASE PLEASE YUNG SONG NA I Like You So Much, You’ll Know It                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
